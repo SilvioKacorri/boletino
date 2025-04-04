@@ -1,0 +1,196 @@
+.custom-col-1 {
+    flex: 0 0 8.33%;
+    max-width: 8.33%;
+  }
+  .custom-col-2 {
+    flex: 0 0 16.66%;
+    max-width: 16.66%;
+  }
+  .custom-col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .custom-col-4 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+  .custom-col-5 {
+    flex: 0 0 41.66%;
+    max-width: 41.66%;
+  }
+  .custom-col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .custom-col-7 {
+    flex: 0 0 58.33%;
+    max-width: 58.33%;
+  }
+  .custom-col-8 {
+    flex: 0 0 66.66%;
+    max-width: 66.66%;
+  }
+  .custom-col-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .custom-col-10 {
+    flex: 0 0 83.33%;
+    max-width: 83.33%;
+  }
+  .custom-col-11 {
+    flex: 0 0 91.66%;
+    max-width: 91.66%;
+  }
+  .custom-col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+.img-xs {
+    width: 25px;
+}
+#logo {
+    width: 44px;
+}
+body {
+    margin: 0;
+}
+main{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+.nav {
+    background-color: #003066;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.nav-item-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px ;
+}
+.logoName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav {
+    padding-left: 13%;
+    padding-right: 13%;
+    height: 55px;
+}
+.nav-item-first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    padding-bottom: 0px;
+}
+.nav-item-first button {
+    background-color: #003066;
+    border: solid 1px #003066;
+
+}
+.nav-item-first button:hover {
+    border: solid 1px white;
+}
+.nav-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px   ;
+}
+.nav-item div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#userpfp {
+    width: 25px;
+    color: white;
+}
+.user-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+}
+.notification {
+    border: solid 2px #f4dfbd;
+    border-radius: 10px;
+    background-color: #fff9ec;
+    margin-top: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 45px;
+
+}
+.notification img {
+    width: 25px;
+    padding-left: 10px;    
+}
+.notification hr {
+    width: 2px; /* Thin line */
+    height: 15px; /* Adjust height */
+    background-color: black; /* Change color */
+    border: none;
+}
+.notification a {
+    color: black;
+}
+.notif-sub {
+    display: flex;
+    align-items: center;
+    gap: 10px   ;
+}
+.information-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.header-nav-container-item1{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    gap: 30px ;
+}
+.information-colorp{
+    border: none;
+    background-color: #6f3318;
+    color: #ffe2d4;
+    border-radius: 10px;
+    width: 130px;
+    height: 20px;
+    text-align: center;
+}
+.header-nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.role-selector-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 8fr 2fr 2fr;
+}
+.role-selector-container hr {
+    border: none;
+    height: 3px;
+    background-color: #cbd5e1;
+    width: 98%;
+}
+.role-img{
+    width: 40px;
+}
+.role-card {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

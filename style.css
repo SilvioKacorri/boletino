@@ -97,6 +97,13 @@ main {
     border: none;
     border-radius: 10px;
 }
+.body-container-first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
 .body-container-third {
     display: flex;
     align-items: center;
